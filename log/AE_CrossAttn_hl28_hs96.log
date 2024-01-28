@@ -1,0 +1,121 @@
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_CrossAttn_hl28_hs96
+Params: seq_len:96, hid_len:28, input_size:7, hid_size:96, individual:False
+(461780, 7)
+epoch:0/100, loss:0.002979, loss_min:inf, time:371.19
+0.002979431533349026 9.304764678649008 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:0.001498, loss_min:0.002979, time:373.25
+0.0014975618617261537 4.676885694170778 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:0.001591, loss_min:0.001498, time:375.7
+0.0015905777510471864 4.967374316520363 3123
+Early stop count:1/4
+
+epoch:3/100, loss:0.000867, loss_min:0.001498, time:368.25
+0.0008668101360486818 2.7070480548800333 3123
+save model. Early stop count:0/4
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\ICIT 2024\code\run.py", line 215, in <module>
+    main()
+  File "C:\Users\Lenovo\Desktop\ICIT 2024\code\run.py", line 138, in main
+    loss_.backward()
+  File "D:\Coding\miniconda\envs\RUL_Benchmark\Lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "D:\Coding\miniconda\envs\RUL_Benchmark\Lib\site-packages\torch\autograd\__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_CrossAttn_hl28_hs96
+Params: seq_len:96, hid_len:28, input_size:7, hid_size:96, individual:False
+(461780, 7)
+epoch:0/100, loss:0.002979, loss_min:inf, time:45.59
+0.002979431533349026 9.304764678649008 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:0.001498, loss_min:0.002979, time:44.95
+0.0014975618617261537 4.676885694170778 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:0.001591, loss_min:0.001498, time:44.95
+0.0015905777510471864 4.967374316520363 3123
+Early stop count:1/4
+
+epoch:3/100, loss:0.000867, loss_min:0.001498, time:44.68
+0.0008668101360486818 2.7070480548800333 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:0.0008, loss_min:0.000867, time:45.13
+0.0007995980984426047 2.4971448614362544 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:0.000802, loss_min:0.0008, time:44.97
+0.0008021125102359155 2.504997369466764 3123
+Early stop count:1/4
+
+epoch:6/100, loss:0.000724, loss_min:0.0008, time:45.64
+0.0007235958502516803 2.2597898403359977 3123
+save model. Early stop count:0/4
+
+epoch:7/100, loss:0.000761, loss_min:0.000724, time:45.8
+0.0007613115187974633 2.377575873204478 3123
+Early stop count:1/4
+
+epoch:8/100, loss:0.00073, loss_min:0.000724, time:45.96
+0.0007302825054545588 2.280672264534587 3123
+Early stop count:2/4
+
+epoch:9/100, loss:0.000746, loss_min:0.000724, time:45.88
+0.000745737264894716 2.328937478266198 3123
+Early stop count:3/4
+
+epoch:10/100, loss:0.000703, loss_min:0.000724, time:45.64
+0.0007027725707135289 2.1947587383383507 3123
+save model. Early stop count:0/4
+
+epoch:11/100, loss:0.0007, loss_min:0.000703, time:47.11
+0.0007000344133673735 2.1862074729463075 3123
+save model. Early stop count:0/4
+
+epoch:12/100, loss:0.000665, loss_min:0.0007, time:47.86
+0.0006654558500912081 2.0782186198348427 3123
+save model. Early stop count:0/4
+
+epoch:13/100, loss:0.000683, loss_min:0.000665, time:47.61
+0.0006833250324563333 2.134024076361129 3123
+Early stop count:1/4
+
+epoch:14/100, loss:0.00087, loss_min:0.000665, time:47.79
+0.0008695971186615928 2.7157518015801543 3123
+Early stop count:2/4
+
+epoch:15/100, loss:0.000748, loss_min:0.000665, time:48.3
+0.0007482395012053524 2.336751962264316 3123
+Early stop count:3/4
+
+epoch:16/100, loss:0.000711, loss_min:0.000665, time:47.49
+0.0007109558463353496 2.2203151081052965 3123
+Early stop count:4/4
+
+early stop
+test loss:0.07084711699267779
+(199808, 96, 7)
+(199808, 7)
+(19181568, 7) (19181568, 7)

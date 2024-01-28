@@ -1,0 +1,70 @@
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_Main_k5_blk2
+Params: 
+seq_len:96, hid_len:64, input_size:7
+hid_size:28, individual:False, block_num:2
+kernel_size:5
+
+(461780, 7)
+epoch:0/100, loss:0.000126, loss_min:inf, time:43.18
+0.00012574917517844993 0.3927146740822991 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:5.8e-05, loss_min:0.000126, time:43.11
+5.830909553969162e-05 0.18209930537045693 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:3.2e-05, loss_min:5.8e-05, time:43.22
+3.2302499669636305e-05 0.10088070646827418 3123
+save model. Early stop count:0/4
+
+epoch:3/100, loss:2.2e-05, loss_min:3.2e-05, time:44.35
+2.17204613991964e-05 0.06783300094969036 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:2e-05, loss_min:2.2e-05, time:48.64
+1.9809990991746054e-05 0.061866601867222926 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:2e-05, loss_min:2e-05, time:49.09
+1.9998913035808512e-05 0.06245660541082998 3123
+Early stop count:1/4
+
+epoch:6/100, loss:1.7e-05, loss_min:2e-05, time:49.05
+1.7308188745719474e-05 0.05405347345288192 3123
+save model. Early stop count:0/4
+
+epoch:7/100, loss:1.8e-05, loss_min:1.7e-05, time:48.8
+1.757431098840281e-05 0.05488457321678197 3123
+Early stop count:1/4
+
+epoch:8/100, loss:1.7e-05, loss_min:1.7e-05, time:47.64
+1.6902825527917718e-05 0.052787524123687035 3123
+save model. Early stop count:0/4
+
+epoch:9/100, loss:1.9e-05, loss_min:1.7e-05, time:44.38
+1.8551281845778916e-05 0.057935653204367554 3123
+Early stop count:1/4
+
+epoch:10/100, loss:1.8e-05, loss_min:1.7e-05, time:44.23
+1.7569882082566434e-05 0.05487074174385498 3123
+Early stop count:2/4
+
+epoch:11/100, loss:1.8e-05, loss_min:1.7e-05, time:44.46
+1.785428599523287e-05 0.055758935163112255 3123
+Early stop count:3/4
+
+epoch:12/100, loss:1.7e-05, loss_min:1.7e-05, time:45.4
+1.7369939423658116e-05 0.05424632082008429 3123
+Early stop count:4/4
+
+early stop
+test loss:0.009120089578254031
+(19181568, 7) (19181568, 7)

@@ -1,0 +1,293 @@
+123
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_Main_k3_blk2
+Params: 
+seq_len:96, hid_len:64, input_size:7
+hid_size:28, individual:False, block_num:2
+kernel_size:3
+
+(461780, 7)
+epoch:0/100, loss:0.000308, loss_min:inf, time:44.81
+0.0003084959018675579 0.9634327015323834 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:8.8e-05, loss_min:0.000308, time:45.41
+8.768324427140034e-05 0.27383477185958327 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:3.1e-05, loss_min:8.8e-05, time:45.18
+3.086136177152616e-05 0.0963800328124762 3123
+save model. Early stop count:0/4
+
+epoch:3/100, loss:2.8e-05, loss_min:3.1e-05, time:45.33
+2.7894185804697692e-05 0.08711354226807089 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:2.6e-05, loss_min:2.8e-05, time:46.0
+2.596176435234257e-05 0.08107859007236584 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:2.6e-05, loss_min:2.6e-05, time:47.78
+2.6375480149210333e-05 0.08237062450598387 3123
+Early stop count:1/4
+
+epoch:6/100, loss:2.6e-05, loss_min:2.6e-05, time:47.57
+2.6114893096232806e-05 0.08155681113953506 3123
+Early stop count:2/4
+
+epoch:7/100, loss:2.2e-05, loss_min:2.6e-05, time:44.48
+2.193351050869664e-05 0.06849835331865961 3123
+save model. Early stop count:0/4
+
+epoch:8/100, loss:2.2e-05, loss_min:2.2e-05, time:44.22
+2.1799999104897196e-05 0.06808139720459394 3123
+save model. Early stop count:0/4
+
+epoch:9/100, loss:2.3e-05, loss_min:2.2e-05, time:48.37
+2.3236634238330836e-05 0.0725680087263072 3123
+Early stop count:1/4
+
+epoch:10/100, loss:2.2e-05, loss_min:2.2e-05, time:47.91
+2.226875921376875e-05 0.06954533502459981 3123
+Early stop count:2/4
+
+epoch:11/100, loss:2.3e-05, loss_min:2.2e-05, time:48.57
+2.301638260100977e-05 0.07188016286295351 3123
+Early stop count:3/4
+
+epoch:12/100, loss:2.1e-05, loss_min:2.2e-05, time:47.24
+2.120767519174634e-05 0.06623156962382382 3123
+save model. Early stop count:0/4
+
+epoch:13/100, loss:1.9e-05, loss_min:2.1e-05, time:47.04
+1.930262453169806e-05 0.06028209641249305 3123
+save model. Early stop count:0/4
+
+epoch:14/100, loss:1.9e-05, loss_min:1.9e-05, time:46.83
+1.9004573408131933e-05 0.059351282753596024 3123
+save model. Early stop count:0/4
+
+epoch:15/100, loss:1.8e-05, loss_min:1.9e-05, time:47.42
+1.785678199423263e-05 0.0557667301679885 3123
+save model. Early stop count:0/4
+
+epoch:16/100, loss:1.8e-05, loss_min:1.8e-05, time:48.1
+1.8181157889033303e-05 0.056779756087451005 3123
+Early stop count:1/4
+
+epoch:17/100, loss:1.8e-05, loss_min:1.8e-05, time:45.88
+1.7765624689954747e-05 0.05548204590672867 3123
+save model. Early stop count:0/4
+
+epoch:18/100, loss:1.8e-05, loss_min:1.8e-05, time:46.71
+1.774058823305434e-05 0.05540385705182871 3123
+save model. Early stop count:0/4
+
+epoch:19/100, loss:1.7e-05, loss_min:1.8e-05, time:45.28
+1.718892454717342e-05 0.053681011360822595 3123
+save model. Early stop count:0/4
+
+epoch:20/100, loss:1.7e-05, loss_min:1.7e-05, time:45.87
+1.700872617445346e-05 0.053118251842818154 3123
+save model. Early stop count:0/4
+
+epoch:21/100, loss:1.8e-05, loss_min:1.7e-05, time:45.5
+1.790236932282871e-05 0.05590909939519406 3123
+Early stop count:1/4
+
+epoch:22/100, loss:1.7e-05, loss_min:1.7e-05, time:46.14
+1.6804322776702546e-05 0.052479900031642046 3123
+save model. Early stop count:0/4
+
+epoch:23/100, loss:1.7e-05, loss_min:1.7e-05, time:47.39
+1.705439907463721e-05 0.053260888310092014 3123
+Early stop count:1/4
+
+epoch:24/100, loss:1.6e-05, loss_min:1.7e-05, time:47.54
+1.5987356931818904e-05 0.04992851569807044 3123
+save model. Early stop count:0/4
+
+epoch:25/100, loss:1.5e-05, loss_min:1.6e-05, time:47.36
+1.5473591982406284e-05 0.04832402776105482 3123
+save model. Early stop count:0/4
+
+epoch:26/100, loss:1.4e-05, loss_min:1.5e-05, time:47.6
+1.3976059333798476e-05 0.04364723329945264 3123
+save model. Early stop count:0/4
+
+epoch:27/100, loss:1.3e-05, loss_min:1.4e-05, time:45.88
+1.3459465184590432e-05 0.04203390977147592 3123
+save model. Early stop count:0/4
+
+epoch:28/100, loss:1.3e-05, loss_min:1.3e-05, time:45.16
+1.3489646463285881e-05 0.04212816590484181 3123
+Early stop count:1/4
+
+epoch:29/100, loss:2.1e-05, loss_min:1.3e-05, time:45.45
+2.1328722479318308e-05 0.06660960030291108 3123
+Early stop count:2/4
+
+epoch:30/100, loss:2.1e-05, loss_min:1.3e-05, time:45.27
+2.0629923763915464e-05 0.064427251914708 3123
+Early stop count:3/4
+
+epoch:31/100, loss:1.6e-05, loss_min:1.3e-05, time:44.68
+1.577424727157312e-05 0.04926297422912285 3123
+Early stop count:4/4
+
+early stop
+test loss:0.008845420603307747
+(19181568, 7) (19181568, 7)
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_Main_k3_blk2
+Params: 
+seq_len:96, hid_len:64, input_size:7
+hid_size:28, individual:False, block_num:2
+kernel_size:3
+
+(461780, 7)
+epoch:0/100, loss:0.000308, loss_min:inf, time:45.91
+0.0003084959018675579 0.9634327015323834 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:8.8e-05, loss_min:0.000308, time:47.6
+8.768324427140034e-05 0.27383477185958327 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:3.1e-05, loss_min:8.8e-05, time:47.59
+3.086136177152616e-05 0.0963800328124762 3123
+save model. Early stop count:0/4
+
+epoch:3/100, loss:2.8e-05, loss_min:3.1e-05, time:47.28
+2.7894185804697692e-05 0.08711354226807089 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:2.6e-05, loss_min:2.8e-05, time:46.37
+2.596176435234257e-05 0.08107859007236584 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:2.6e-05, loss_min:2.6e-05, time:45.43
+2.6375480149210333e-05 0.08237062450598387 3123
+Early stop count:1/4
+
+epoch:6/100, loss:2.6e-05, loss_min:2.6e-05, time:45.55
+2.6114893096232806e-05 0.08155681113953506 3123
+Early stop count:2/4
+
+epoch:7/100, loss:2.2e-05, loss_min:2.6e-05, time:45.5
+2.193351050869664e-05 0.06849835331865961 3123
+save model. Early stop count:0/4
+
+epoch:8/100, loss:2.2e-05, loss_min:2.2e-05, time:46.49
+2.1799999104897196e-05 0.06808139720459394 3123
+save model. Early stop count:0/4
+
+epoch:9/100, loss:2.3e-05, loss_min:2.2e-05, time:47.25
+2.3236634238330836e-05 0.0725680087263072 3123
+Early stop count:1/4
+
+epoch:10/100, loss:2.2e-05, loss_min:2.2e-05, time:47.24
+2.226875921376875e-05 0.06954533502459981 3123
+Early stop count:2/4
+
+epoch:11/100, loss:2.3e-05, loss_min:2.2e-05, time:47.66
+2.301638260100977e-05 0.07188016286295351 3123
+Early stop count:3/4
+
+epoch:12/100, loss:2.1e-05, loss_min:2.2e-05, time:47.73
+2.120767519174634e-05 0.06623156962382382 3123
+save model. Early stop count:0/4
+
+epoch:13/100, loss:1.9e-05, loss_min:2.1e-05, time:48.52
+1.930262453169806e-05 0.06028209641249305 3123
+save model. Early stop count:0/4
+
+epoch:14/100, loss:1.9e-05, loss_min:1.9e-05, time:45.68
+1.9004573408131933e-05 0.059351282753596024 3123
+save model. Early stop count:0/4
+
+epoch:15/100, loss:1.8e-05, loss_min:1.9e-05, time:45.91
+1.785678199423263e-05 0.0557667301679885 3123
+save model. Early stop count:0/4
+
+epoch:16/100, loss:1.8e-05, loss_min:1.8e-05, time:45.41
+1.8181157889033303e-05 0.056779756087451005 3123
+Early stop count:1/4
+
+epoch:17/100, loss:1.8e-05, loss_min:1.8e-05, time:44.89
+1.7765624689954747e-05 0.05548204590672867 3123
+save model. Early stop count:0/4
+
+epoch:18/100, loss:1.8e-05, loss_min:1.8e-05, time:44.45
+1.774058823305434e-05 0.05540385705182871 3123
+save model. Early stop count:0/4
+
+epoch:19/100, loss:1.7e-05, loss_min:1.8e-05, time:46.96
+1.718892454717342e-05 0.053681011360822595 3123
+save model. Early stop count:0/4
+
+epoch:20/100, loss:1.7e-05, loss_min:1.7e-05, time:47.52
+1.700872617445346e-05 0.053118251842818154 3123
+save model. Early stop count:0/4
+
+epoch:21/100, loss:1.8e-05, loss_min:1.7e-05, time:2476.61
+1.790236932282871e-05 0.05590909939519406 3123
+Early stop count:1/4
+
+epoch:22/100, loss:1.7e-05, loss_min:1.7e-05, time:43.9
+1.6804322776702546e-05 0.052479900031642046 3123
+save model. Early stop count:0/4
+
+epoch:23/100, loss:1.7e-05, loss_min:1.7e-05, time:46.79
+1.705439907463721e-05 0.053260888310092014 3123
+Early stop count:1/4
+
+epoch:24/100, loss:1.6e-05, loss_min:1.7e-05, time:48.1
+1.5987356931818904e-05 0.04992851569807044 3123
+save model. Early stop count:0/4
+
+epoch:25/100, loss:1.5e-05, loss_min:1.6e-05, time:44.97
+1.5473591982406284e-05 0.04832402776105482 3123
+save model. Early stop count:0/4
+
+epoch:26/100, loss:1.4e-05, loss_min:1.5e-05, time:44.16
+1.3976059333798476e-05 0.04364723329945264 3123
+save model. Early stop count:0/4
+
+epoch:27/100, loss:1.3e-05, loss_min:1.4e-05, time:44.41
+1.3459465184590432e-05 0.04203390977147592 3123
+save model. Early stop count:0/4
+
+epoch:28/100, loss:1.3e-05, loss_min:1.3e-05, time:44.29
+1.3489646463285881e-05 0.04212816590484181 3123
+Early stop count:1/4
+
+epoch:29/100, loss:2.1e-05, loss_min:1.3e-05, time:44.53
+2.1328722479318308e-05 0.06660960030291108 3123
+Early stop count:2/4
+
+epoch:30/100, loss:2.1e-05, loss_min:1.3e-05, time:47.38
+2.0629923763915464e-05 0.064427251914708 3123
+Early stop count:3/4
+
+epoch:31/100, loss:1.6e-05, loss_min:1.3e-05, time:48.66
+1.577424727157312e-05 0.04926297422912285 3123
+Early stop count:4/4
+
+early stop
+test loss:0.008845420603307747
+(19181568, 7) (19181568, 7)

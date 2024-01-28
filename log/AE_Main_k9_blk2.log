@@ -1,0 +1,71 @@
+123
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_Main_k9_blk2
+Params: 
+seq_len:96, hid_len:64, input_size:7
+hid_size:28, individual:False, block_num:2
+kernel_size:9
+
+(461780, 7)
+epoch:0/100, loss:0.000123, loss_min:inf, time:44.35
+0.0001230183045227762 0.3841861650246301 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:5.3e-05, loss_min:0.000123, time:45.21
+5.330095676828252e-05 0.16645888798734632 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:3.5e-05, loss_min:5.3e-05, time:44.97
+3.454863838677125e-05 0.1078953976818866 3123
+save model. Early stop count:0/4
+
+epoch:3/100, loss:3.3e-05, loss_min:3.5e-05, time:46.89
+3.2531942802858764e-05 0.10159725737332792 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:2.5e-05, loss_min:3.3e-05, time:49.93
+2.4705099412753587e-05 0.07715402546602945 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:1.8e-05, loss_min:2.5e-05, time:49.25
+1.835541956348185e-05 0.057323975296753815 3123
+save model. Early stop count:0/4
+
+epoch:6/100, loss:1.8e-05, loss_min:1.8e-05, time:47.96
+1.771254775097462e-05 0.05531628662629373 3123
+save model. Early stop count:0/4
+
+epoch:7/100, loss:1.5e-05, loss_min:1.8e-05, time:47.7
+1.463269290535834e-05 0.045697899943434095 3123
+save model. Early stop count:0/4
+
+epoch:8/100, loss:1.4e-05, loss_min:1.5e-05, time:45.14
+1.4480652494702785e-05 0.045223077740956796 3123
+save model. Early stop count:0/4
+
+epoch:9/100, loss:1.5e-05, loss_min:1.4e-05, time:44.17
+1.4742693331131779e-05 0.046041431273124545 3123
+Early stop count:1/4
+
+epoch:10/100, loss:1.5e-05, loss_min:1.4e-05, time:45.33
+1.5141460417458732e-05 0.04728678088372362 3123
+Early stop count:2/4
+
+epoch:11/100, loss:1.5e-05, loss_min:1.4e-05, time:45.72
+1.5151602724982111e-05 0.047318455310119134 3123
+Early stop count:3/4
+
+epoch:12/100, loss:1.5e-05, loss_min:1.4e-05, time:45.47
+1.492790791243349e-05 0.04661985641052979 3123
+Early stop count:4/4
+
+early stop
+test loss:0.009246209110048378
+(19181568, 7) (19181568, 7)

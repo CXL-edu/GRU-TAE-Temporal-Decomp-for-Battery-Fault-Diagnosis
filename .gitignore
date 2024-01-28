@@ -1,0 +1,17 @@
+
+*test*
+*cache*
+
+*.xlsx
+*.pt
+*.pth
+*.vsdx
+*.ipynb
+*.png
+
+fig
+fig1
+other
+.idea/
+./ipynb_checkpoints
+

@@ -1,0 +1,188 @@
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_CrossAttn_hl64_hs64
+Params: seq_len:96, hid_len:64, input_size:7, hid_size:64, individual:False
+(461780, 7)
+epoch:0/100, loss:0.001126, loss_min:inf, time:272.11
+0.0011261455145517932 3.51695244194525 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:0.000796, loss_min:0.001126, time:277.56
+0.0007960714938930768 2.486131275428079 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:0.000644, loss_min:0.000796, time:286.61
+0.0006441883197957026 2.0118001227219793 3123
+save model. Early stop count:0/4
+
+epoch:3/100, loss:0.000538, loss_min:0.000644, time:286.91
+0.0005375632925449863 1.6788101626179923 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:0.000422, loss_min:0.000538, time:283.54
+0.0004217849280093022 1.3172343301730507 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:0.000427, loss_min:0.000422, time:306.27
+0.0004271385169099163 1.3339535883096687 3123
+Early stop count:1/4
+
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\ICIT 2024\code\run.py", line 215, in <module>
+    main()
+  File "C:\Users\Lenovo\Desktop\ICIT 2024\code\run.py", line 138, in main
+    loss_.backward()
+  File "D:\Coding\miniconda\envs\RUL_Benchmark\Lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "D:\Coding\miniconda\envs\RUL_Benchmark\Lib\site-packages\torch\autograd\__init__.py", line 193, in backward
+    grad_tensors_ = _make_grads(tensors, grad_tensors_, is_grads_batched=False)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding\miniconda\envs\RUL_Benchmark\Lib\site-packages\torch\autograd\__init__.py", line 89, in _make_grads
+    new_grads.append(torch.ones_like(out, memory_format=torch.preserve_format))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_CrossAttn_hl64_hs64
+Params: seq_len:96, hid_len:64, input_size:7, hid_size:64, individual:False
+(461780, 7)
+epoch:0/100, loss:0.001126, loss_min:inf, time:47.98
+0.0011261455145517932 3.51695244194525 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:0.000796, loss_min:0.001126, time:47.22
+0.0007960714938930768 2.486131275428079 3123
+save model. Early stop count:0/4
+
+123
+safdaf
+
+
+
+
+
+
+Start training with AE_CrossAttn_hl64_hs64
+Params: seq_len:96, hid_len:64, input_size:7, hid_size:64, individual:False
+(461780, 7)
+epoch:0/100, loss:0.001126, loss_min:inf, time:44.89
+0.0011261455145517932 3.51695244194525 3123
+save model. Early stop count:0/4
+
+epoch:1/100, loss:0.000796, loss_min:0.001126, time:44.91
+0.0007960714938930768 2.486131275428079 3123
+save model. Early stop count:0/4
+
+epoch:2/100, loss:0.000644, loss_min:0.000796, time:44.97
+0.0006441883197957026 2.0118001227219793 3123
+save model. Early stop count:0/4
+
+epoch:3/100, loss:0.000538, loss_min:0.000644, time:45.38
+0.0005375632925449863 1.6788101626179923 3123
+save model. Early stop count:0/4
+
+epoch:4/100, loss:0.000422, loss_min:0.000538, time:45.58
+0.0004217849280093022 1.3172343301730507 3123
+save model. Early stop count:0/4
+
+epoch:5/100, loss:0.000427, loss_min:0.000422, time:45.39
+0.0004271385169099163 1.3339535883096687 3123
+Early stop count:1/4
+
+epoch:6/100, loss:0.00038, loss_min:0.000422, time:49.39
+0.0003795588216156707 1.1853621999057395 3123
+save model. Early stop count:0/4
+
+epoch:7/100, loss:0.000363, loss_min:0.00038, time:45.18
+0.0003632541813632981 1.13444280839758 3123
+save model. Early stop count:0/4
+
+epoch:8/100, loss:0.000326, loss_min:0.000363, time:45.75
+0.0003258022775450178 1.0174805127730906 3123
+save model. Early stop count:0/4
+
+epoch:9/100, loss:0.000405, loss_min:0.000326, time:46.57
+0.0004048343838453651 1.2642977807490752 3123
+Early stop count:1/4
+
+epoch:10/100, loss:0.000313, loss_min:0.000326, time:46.68
+0.0003131326641190304 0.977913310043732 3123
+save model. Early stop count:0/4
+
+epoch:11/100, loss:0.000297, loss_min:0.000313, time:46.68
+0.00029719448382831186 0.9281383729958179 3123
+save model. Early stop count:0/4
+
+epoch:12/100, loss:0.000284, loss_min:0.000297, time:47.11
+0.0002842044146497633 0.8875703869512108 3123
+save model. Early stop count:0/4
+
+epoch:13/100, loss:0.000277, loss_min:0.000284, time:46.5
+0.00027743688881352104 0.8664354037646262 3123
+save model. Early stop count:0/4
+
+epoch:14/100, loss:0.000281, loss_min:0.000277, time:47.04
+0.00028086623951076284 0.8771452659921124 3123
+Early stop count:1/4
+
+epoch:15/100, loss:0.000303, loss_min:0.000277, time:47.87
+0.0003034758920245983 0.9477552107928204 3123
+Early stop count:2/4
+
+epoch:16/100, loss:0.000266, loss_min:0.000277, time:48.52
+0.00026582219340333125 0.8301627099986035 3123
+save model. Early stop count:0/4
+
+epoch:17/100, loss:0.000271, loss_min:0.000266, time:47.91
+0.00027102512384835615 0.8464114617784162 3123
+Early stop count:1/4
+
+epoch:18/100, loss:0.000259, loss_min:0.000266, time:48.03
+0.00025934675395145057 0.8099399125903801 3123
+save model. Early stop count:0/4
+
+epoch:19/100, loss:0.000255, loss_min:0.000259, time:46.96
+0.0002554899813300305 0.7978952116936853 3123
+save model. Early stop count:0/4
+
+epoch:20/100, loss:0.000252, loss_min:0.000255, time:44.59
+0.0002518602795013498 0.7865596528827155 3123
+save model. Early stop count:0/4
+
+epoch:21/100, loss:0.000251, loss_min:0.000252, time:44.39
+0.00025060556685435105 0.7826411852861384 3123
+save model. Early stop count:0/4
+
+epoch:22/100, loss:0.000361, loss_min:0.000251, time:44.86
+0.00036149267929561985 1.1289416374402208 3123
+Early stop count:1/4
+
+epoch:23/100, loss:0.002583, loss_min:0.000251, time:44.3
+0.002583288676407894 8.067610536421853 3123
+Early stop count:2/4
+
+epoch:24/100, loss:0.000289, loss_min:0.000251, time:44.77
+0.0002888938655546345 0.9022155421271236 3123
+Early stop count:3/4
+
+epoch:25/100, loss:0.000266, loss_min:0.000251, time:43.86
+0.0002662956922198776 0.8316414468026778 3123
+Early stop count:4/4
+
+early stop
+test loss:0.018320243737754077
+(199808, 96, 7)
+(199808, 7)
+(19181568, 7) (19181568, 7)
