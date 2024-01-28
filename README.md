@@ -4,7 +4,7 @@
 
 
 
-![model](pic\model.png)
+<div align=center><img src="pic/model.png"/></div>
 
 
 
