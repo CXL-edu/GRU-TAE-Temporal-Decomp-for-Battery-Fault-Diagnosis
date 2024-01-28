@@ -7,11 +7,12 @@
 *.pth
 *.vsdx
 *.ipynb
-*.png
+
 
 fig
 fig1
 other
+legend.png
 .idea/
 ./ipynb_checkpoints
 
