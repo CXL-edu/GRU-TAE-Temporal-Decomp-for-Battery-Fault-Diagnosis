@@ -1,6 +1,6 @@
 # GRU-TemporalAttention Model with Time Series Decomposition Module for Battery Fault Diagnosis
 
-[中文](file/README_zh.md)|[Paper](file/GRU_TemporalAttention_Model_with_Temporal_Decomposition_Module_for_Battery_Fault_Diagnosis_in_Quadrupedal_Robots.pdf)|[Presentation PPT](file/Xiaolong Chen for 2024 ICIT.pptx)
+[中文](file/README_zh.md)|[Paper](file/GRU_TemporalAttention_Model_with_Temporal_Decomposition_Module_for_Battery_Fault_Diagnosis_in_Quadrupedal_Robots.pdf)|[Presentation PPT](file/Xiaolong_Chen_for_2024_ICIT.pptx)
 
 This paper has been accepted for the 2024 IEEE 25th International Conference on Industrial Technology (ICIT).
 
